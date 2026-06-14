@@ -1,0 +1,13 @@
+# 非电子书正文，不纳入仓库
+jd.txt
+DESIGN.md
+.claude/
+
+# 编辑器 / 系统噪声
+.DS_Store
+*.swp
+*.swo
+*~
+Thumbs.db
+.idea/
+.vscode/

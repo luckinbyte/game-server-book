@@ -4,15 +4,12 @@ authors = ["luckinbyte"]
 language = "zh"
 description = "面向资深游戏服务端工程师的社招面试攻略｜22章 / 约23万字 / 200+分层面试题"
 src = "."
-multilingual = false
 
 [output.html]
 default-theme = "light"
 preferred-dark-theme = "navy"
 git-repository-url = "https://github.com/luckinbyte/game-server-book"
 edit-url-template = "https://github.com/luckinbyte/game-server-book/edit/main/{path}"
-copy-fonts = true
-no-section-label = false
 
 [output.html.fold]
 enable = true
@@ -22,11 +19,3 @@ level = 0
 enable = true
 limit-results = 30
 use-boolean-and = true
-boost-title = 2
-boost-hierarchy = 1
-boost-paragraph = 1
-expand = true
-heading-split-level = 3
-
-[output.html.print]
-enable = true
